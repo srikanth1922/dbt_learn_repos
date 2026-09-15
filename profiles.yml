@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: BFOBVGS-AP69157
+      database: RAW
+      password: $nowFlake01922
+      role: ACCOUNTADMIN
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: SRIKANTH1922
+      warehouse: COMPUTE_WH
+  target: dev
